@@ -1,0 +1,9 @@
+Devops acts as a link between dev and ops.
+It is used in deployment of code.
+Some of the Devops tools are Docker ,kubernetes, jenkins ,terraform...etc
+
+Automation: to use technology to do something without the need of human.
+Scaling: to expand the product is known as scaling.
+Infrastructure: the schema of the product.
+
+devops streamlines the deployment process making it accurate and fast.
