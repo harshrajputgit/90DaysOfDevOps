@@ -1,0 +1,29 @@
+1.Explain in your own words and examples, what is Shell Scripting for DevOps.
+By using shell scripting user can interact wihh the operating system. Shell converts the scripts in form which kernel can understand.
+
+2.What is `#!/bin/bash?` can we write `#!/bin/sh` as well?
+`#!/bin/bash?` is known as shebang. This specific statement specifies that Bash is used for scripting.
+whereas `#!/bin/sh` is more generic in nature it specifies bourne shell or a compatible shell is used.
+
+3. Write a Shell Script to take user input, input from arguments and print the variables.
+#!/bin/bash
+
+echo "enter your age"
+read age
+echo "$1 age is $age"
+
+#while executing pass the argument along with file name eg ./age.sh harsh
+
+4.Write an Example of If else in Shell Scripting by comparing 2 numbers
+echo "enter two numbers";
+read a b;
+
+echo "a=$a";
+echo "b=$b";
+
+if [ $a \> $b ];
+then
+    echo "a is greater than b";
+else
+    echo "b is greater than a";
+fi;
