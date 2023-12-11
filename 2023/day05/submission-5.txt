@@ -1,0 +1,22 @@
+1. You have to do the same using Shell Script i.e using either Loops or command with start day and end day variables using arguments -
+#!/bin/bash
+
+for (( i=1;i<=$3;i++ ))
+do
+mkdir $1-$i
+done
+
+2.  Create a Script to backup all your work done till now.
+
+/#!/bin/bash
+Backup_directory="/Users/harsh/Documents/devops_challenge/90DaysOfDevOps/*"
+Backups="/Users/harsh/Documents/devops_challenge/Backup folder"
+date=$(date +"%d-%b-%Y")
+
+mkdir $Backups/$date
+cp -r $Backup_directory $Backups/$date
+
+echo "Backup created in $Backups/$date"
+
+3.  Read About Cron and Crontab, to automate the backup Script.
+0 12 * * * bash  /Users/harsh/Documents/devops_challenge/90DaysOfDevOps/2023/day05/backup.sh 
