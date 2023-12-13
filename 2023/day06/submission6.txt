@@ -1,0 +1,26 @@
+1. As a task, change the user permissions of the file and note the changes after `ls -ltr`
+chmod 777 fruits.txt 
+before : -rw-r--r--  1 harsh  staff    45 Dec  9 14:01 fruits.txt
+after : -rwxrwxrwx  1 harsh  staff    45 Dec  9 14:01 fruits.txt
+
+2. Write an article about File Permissions based on your understanding from the notes.(done)
+
+3. Read about ACL and try out the commands `getfacl` and `setfacl`(done)
+ubuntu@ip-172-31-32-203:~$ getfacl colors.txt 
+# file: colors.txt
+# owner: ubuntu
+# group: ubuntu
+user::rw-
+group::rw-
+other::r--
+
+ubuntu@ip-172-31-32-203:~$ getfacl colors.txt 
+# file: colors.txt
+# owner: ubuntu
+# group: ubuntu
+user::rw-
+user:ubuntu:rw-
+group::rw-
+mask::rw-
+other::r--
+
