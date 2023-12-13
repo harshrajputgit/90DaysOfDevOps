@@ -14,6 +14,7 @@ user::rw-
 group::rw-
 other::r--
 
+ubuntu@ip-172-31-32-203:~$ setfacl -m u:ubuntu:rw colors.txt
 ubuntu@ip-172-31-32-203:~$ getfacl colors.txt 
 # file: colors.txt
 # owner: ubuntu
