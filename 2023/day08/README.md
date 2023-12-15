@@ -40,9 +40,9 @@ Overall, the decentralized nature of a DVCS allows for greater collaboration, fl
 
 ## Exercises:
 
-1. Create a new repository on GitHub and clone it to your local machine
-2. Make some changes to a file in the repository and commit them to the repository using Git
-3. Push the changes back to the repository on GitHub
+1. Create a new repository on GitHub and clone it to your local machine(done)
+2. Make some changes to a file in the repository and commit them to the repository using Git(done)
+3. Push the changes back to the repository on GitHub(done)
 
 Reff :- https://youtu.be/AT1uxOLsCdk
 
